@@ -400,22 +400,22 @@ img{
   .info {
     flex-direction: column;
     border-radius: 30px 30px 0 0;
-
+    overflow: visible;
   }
 
   .info-photo {
     height: 100%;
     min-height: 400px;
     width: 100%;
+    border-radius: 30px 30px 0 0;
+
   }
 
   .info-main {
     border-radius: 0;
+    height: max-content;
+    padding: 20px;
   }
-
-  /* .works-item--header-box {
-    height: 110px;
-  } */
 
   .header-nav {
     justify-content: center;
@@ -424,6 +424,10 @@ img{
   .container-footer {
     flex-direction: column;
     gap: 30px;
+  }
+
+  .content {
+    padding: 20px 20px 20px 40px;
   }
 
 }
