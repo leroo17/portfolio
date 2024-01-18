@@ -148,9 +148,9 @@ img{
 
 .info-main {
   padding: 30px;
-  background: #642B73;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #C6426E, #642B73);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #642B73;
+  background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+  background: linear-gradient(to right, #C6426E, #642B73); 
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -274,7 +274,6 @@ img{
   -webkit-text-fill-color: transparent;
 }
 
-/* WORKS */
 
 .works-inner {
   padding-top: 20px;
@@ -348,8 +347,6 @@ img{
 .works-item-text {
   margin-bottom: 5px;
 }
-
-/* CONTACTS */
 
 .contacts-inner {
   padding: 20px 0;
