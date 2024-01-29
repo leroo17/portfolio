@@ -307,8 +307,13 @@ img{
   background-image: url(../images/work001.jpeg);
   background-size: contain;
 }
+
 .works-item:nth-child(2) .works-item--header-box {
   background-image: url(../images/work002.jpeg);
+}
+
+.works-item:nth-child(2) .works-item--header-box {
+  background-image: url(../images/work003.jpeg);
 }
 
 .works-item--header-box::before {
