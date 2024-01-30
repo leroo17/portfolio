@@ -91,7 +91,7 @@ input, select {
   vertical-align: middle;
 }
 
-.works-item--header-box::before, .works-item--header-box, .works-inner, .header {
+.works-item--header-box::before, .works-item--header-box, .header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,6 +368,8 @@ img {
 
 .works-inner {
   padding-top: 20px;
+  display: flex;
+  justify-content: start;
   flex-wrap: wrap;
   gap: 10px;
 }
@@ -398,11 +400,16 @@ img {
   background-image: url(../images/work002.jpeg);
 }
 
+.works-item:nth-child(3) .works-item--header-box {
+  background-image: url(../images/work003.jpeg);
+}
+
 .works-item--header-box::before {
   content: "Посмотреть проект";
   height: 135px;
   width: 100%;
   top: -135px;
+  display: block;
   position: absolute;
   transition: all 1s;
   background: #00d2ff;
@@ -495,6 +502,11 @@ img {
   .content {
     padding: 20px 20px 40px 40px;
   }
+
+  .works-inner {
+    justify-content: center;
+  }
+
 }
 
 /*# sourceMappingURL=main.css.map */

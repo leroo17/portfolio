@@ -279,7 +279,8 @@ img{
 
 .works-inner {
   padding-top: 20px;
-  @extend %display-flex-center-center;
+  display: flex;
+  justify-content: start;
   flex-wrap: wrap;
   gap: 10px;
 }
