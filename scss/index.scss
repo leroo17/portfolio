@@ -306,7 +306,9 @@ img{
   width: 100%;
   @extend %display-flex-center-center;
   background-image: url(../images/work001.jpeg);
-  background-size: contain;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 .works-item:nth-child(2) .works-item--header-box {
@@ -322,7 +324,7 @@ img{
   height: 135px;
   width: 100%;
   top: -135px;
-  display: block;
+
   position: absolute;
   transition: all 1s;
   background: #00d2ff;
@@ -330,7 +332,9 @@ img{
   background: linear-gradient(to left, #3a7bd5, #00d2ff);
   height: 135px;
   width: 100%;
-  @extend %display-flex-center-center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .works-item:hover .works-item--header-box::before{
